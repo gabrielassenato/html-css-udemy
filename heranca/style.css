@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+/* Herança e especificidade */
+body {  /*4*/
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+
+/* ESPECIFICIDADE PRECEDENCIA */
+
+h2 { /*3*/
+    color: blue;
+}
+
+h2.verde {  /*2*/
+    color: green;
+}
+
+h2#amarelo {  /*1*/
+    color: yellow;
+}

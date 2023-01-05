@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(7, 192, 192);
+}
+
+#noticias {
+    width: 920px;
+}
+
+.noticia {
+    background-color: lightblue;
+    padding: 5px;
+    width: 280px;
+    margin: 7px;
+    border: 1px solid black;
+    float: left;
+}
+
+.imagem-galeria {
+    background-color: rgb(218, 163, 96);
+    width: 265px;
+    padding: 5px;
+    margin: 15px;
+    float: left;
+}
+
+.clear {
+    clear: both;
+}

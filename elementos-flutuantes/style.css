@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+#principal {
+    border: 1px solid red;
+    background-color:  green;
+}
+
+.conteudo {
+    background-color: lightblue;
+    border: 1px solid grey;
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin: 10px;
+}
+
+/*
+    .conteudo1 {
+    background-color: lightgreen;
+    border: 1px solid grey;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 10px;
+} */
+
+.conteudo0 {
+    background-color: lightgreen;
+    border: 1px solid grey;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+
+.clear {
+    clear: both;
+}

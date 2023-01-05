@@ -1,0 +1,28 @@
+header {
+    border: 1px solid #ccc;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+nav {
+    border: 1px solid goldenrod;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+article {
+    background: yellow;
+    padding: 10px;
+}
+
+section {
+    border: 1px dotted rgb(0, 0, 0);
+}
+
+aside {
+    background: blue;
+}
+
+footer {
+    background-color: #f1f4f8;
+}

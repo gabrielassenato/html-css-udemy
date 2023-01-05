@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+/* Barra de navegação COM ABAS */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 720px;
+}
+
+ul li {
+    float: left;
+    background: url(imagens/aba-direita.png) no-repeat top right;
+}
+
+li a {
+    display: block;
+    padding: 0 2em;
+    line-height: 3em;  /* mesma coisa que colocar um paddin top e bottom de 1em */
+    text-decoration: none;
+    color: white;
+    background: url(imagens/aba-esquerda.png) no-repeat top left;
+}
+
+li a:hover {
+    color: black;
+}
+
+ul #atual {
+    background:  url(imagens/aba-direita-atual.png) no-repeat top right;
+}
+
+ul #atual a {
+    background: url(imagens/aba-esquerda-atual.png) no-repeat top left;;
+}
+

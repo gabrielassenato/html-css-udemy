@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox - Flexible Box Layout</title>
+    <style type="text/css">
+
+        #conteudo {
+            background: #dcdcdc;
+
+            height: 400px;
+            display: flex;
+            /* row|row-reverse|column|column reverse */
+            flex-direction: row;
+            flex-wrap: nowrap; /* define a quebra do conteudo no container*/
+
+            justify-content: space-evenly; /* justifica o conteúdo */
+
+            align-items: center;  /* alinha os itens */
+        }
+
+        .item {
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            background: white;
+            border: 1px solid gray;
+        }
+
+    </style>
+</head>
+
+<body>
+    
+    <h1>Flexbox</h1>
+    <container>
+        <div id="conteudo">
+            <div class="item">01</div>
+            <div class="item">02</div>
+            <div class="item">03</div>
+            <div class="item">04</div>
+        </div>
+    </container>
+
+</body>
+</html>

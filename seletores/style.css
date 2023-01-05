@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+/* SELETOR UNIVERSAL */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* SELETOR DE TEXTO */
+h1 {
+    color: rgb(0, 113, 128);
+}
+
+/* SELETOR DE CLASSE */
+.verde {
+    color: rgb(2, 185, 2);
+}
+
+p.verde {
+    color: rgb(5, 90, 5);
+}
+
+/* SELETOR ID */
+#cabecalho {
+    font-style: italic;
+}
+
+/* SELETOR DE FILHO */
+li > a {
+    color: brown;
+    text-decoration: none;
+}
+
+/* SELETOR DESCENDENTE */
+p a {
+    color: rgb(204, 0, 255);
+}
+
+/* SELETOR DE IRMÃO ADJACENTE */
+h1 + p {
+    color: red;
+}
+
+/* SELETOR IRMÃO GERAL */
+h2 ~ p {
+    color: rgb(9, 206, 206);
+}

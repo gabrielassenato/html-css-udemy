@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos inline, block, inline-block</title>
+    <style type="text/css">
+
+        .borda {
+            border: 1px solid red;
+            display: block;
+        }
+
+        .borda2 {
+            border: 1px solid red;            
+        }
+
+        .borda3 {
+            border: 1px solid red;
+            display: inline-block;            
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Inline</h1>
+    <!--span é por padrão INLINE-->
+    <span class="borda2"><strong>Inline 1</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit perferendis earum esse! Doloribus provident quaerat mollitia aut, fugit, at optio nesciunt sint illo neque aliquam dicta fuga quo animi sunt? </span>
+    <span class="borda2"><strong>Inline 2</strong></span>
+    
+    <p>
+        <h1>block</h1>
+        <div class="borda">Bloco 1</div>
+        <div class="borda">Bloco 2</div>
+    </p>
+
+    <p>
+        <h1>inline-block</h1>
+        <span class="borda3"><strong>Inline 1</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit perferendis earum esse! Doloribus provident quaerat mollitia aut, fugit, at optio nesciunt sint illo neque aliquam dicta fuga quo animi sunt? </span>
+    <span class="borda2"><strong>Inline 2</strong></span>
+    </p>
+    
+</body>
+</html>
